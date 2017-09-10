@@ -556,11 +556,11 @@ MFLAGS=
 MAKEFLAGS=
 
 # Identity of this package.
-PACKAGE_NAME='OpenMCU-ru'
+PACKAGE_NAME='MCU-RedeConecta'
 PACKAGE_TARNAME='openmcu-ru'
-PACKAGE_VERSION='4.0'
-PACKAGE_STRING='OpenMCU-ru 4.0'
-PACKAGE_BUGREPORT='OpenMCU-ru'
+PACKAGE_VERSION='5.0'
+PACKAGE_STRING='MCU-RedeConecta 5.0'
+PACKAGE_BUGREPORT='MCU-RedeConecta'
 PACKAGE_URL=''
 
 enable_option_checking=no
@@ -1558,7 +1558,7 @@ Some influential environment variables:
 Use these variables to override the choices made by `configure' or to help
 it to find libraries and programs with nonstandard names/locations.
 
-Report bugs to <OpenMCU-ru>.
+Report bugs to <MCU-RedeConecta>.
 _ACEOF
 ac_status=$?
 fi
@@ -2904,7 +2904,7 @@ am__tar='${AMTAR} chof - "$$tardir"'; am__untar='${AMTAR} xf -'
 
 
 
-PRODUCT=OpenMCU-ru
+PRODUCT=MCU-RedeConecta
 
 PROG=openmcu-ru
 

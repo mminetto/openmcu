@@ -1,11 +1,11 @@
 dnl #######################################################################
 dnl INIT
 
-AC_INIT([OpenMCU-ru],[4.0],[OpenMCU-ru])
+AC_INIT([MCU-RedeConecta],[5.0],[MCU-RedeConecta])
 AC_CANONICAL_TARGET()
 AM_INIT_AUTOMAKE()
 
-AC_SUBST(PRODUCT, OpenMCU-ru)
+AC_SUBST(PRODUCT, MCU-RedeConecta)
 AC_SUBST(PROG, openmcu-ru)
 
 AC_LANG(C++)
@@ -197,7 +197,7 @@ if test "${USE_GCC}" = "yes"; then
 fi
 
 dnl ########################################################################
-dnl OpenMCU-ru version
+dnl MCU-RedeConecta version
 
 MCU_MAJOR_VERSION=`cat openmcu-ru/version.h | grep MAJOR_VERSION | cut -f3 -d' '`
 MCU_MINOR_VERSION=`cat openmcu-ru/version.h | grep MINOR_VERSION | cut -f3 -d' '`
