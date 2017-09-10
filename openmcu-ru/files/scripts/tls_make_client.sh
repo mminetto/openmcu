@@ -3,7 +3,7 @@
 CA_PATH="./CA"
 SSL_PATH="../ssl"
 COMMON_NAME="client"
-ORG_NAME="MCU-RedeConecta"
+ORG_NAME="OpenMCU-ru"
 
 if [ ! -z $1 ] ; then
   COMMON_NAME=$1
@@ -24,7 +24,7 @@ echo "
   basicConstraints=CA:TRUE
   subjectKeyIdentifier=hash
   authorityKeyIdentifier=keyid,issuer:always
-  nsComment=\"OMCU-RedeConecta client certificate\"
+  nsComment=\"OpenMCU-ru client certificate\"
   nsCertType=client
   extendedKeyUsage=clientAuth
 

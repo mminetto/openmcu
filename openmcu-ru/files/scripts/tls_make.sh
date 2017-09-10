@@ -2,8 +2,8 @@
 
 CA_PATH="./CA"
 SSL_PATH="../ssl"
-COMMON_NAME="MCU-RedeConecta"
-ORG_NAME="MCU-RedeConecta"
+COMMON_NAME="OpenMCU-ru"
+ORG_NAME="OpenMCU-ru"
 
 echo "
   [ req ]
@@ -37,7 +37,7 @@ echo "
   basicConstraints=CA:TRUE
   subjectKeyIdentifier=hash
   authorityKeyIdentifier=keyid,issuer:always
-  nsComment=\"MCU-RedeConecta agent certificate\"
+  nsComment=\"OpenMCU-ru agent certificate\"
   nsCertType=server
   extendedKeyUsage=serverAuth
 
