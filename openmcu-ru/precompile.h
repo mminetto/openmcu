@@ -2,9 +2,9 @@
 #ifndef _MCU_PRECOMPILE_H
 #define _MCU_PRECOMPILE_H
 
-#define	PRODUCT_NAME_TEXT	"OpenMCU-ru"
+#define	PRODUCT_NAME_TEXT	"MCU-RedeConecta"
 #define	EXE_NAME_TEXT	        "openmcu-ru"
-#define	MANUFACTURER_TEXT	"OpenMCU-ru Team"
+#define	MANUFACTURER_TEXT	"T.I. Conecta"
 
 // msvc warnings
 #ifdef _WIN32
